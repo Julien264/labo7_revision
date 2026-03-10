@@ -1,0 +1,105 @@
+/* ==========================================================================
+   Générique
+   ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   Base   
+    ========================================================================== */
+
+    .wrapper{
+        max-width: 1171px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
+
+   body{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   }
+
+   p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   }
+
+   h1{
+    font-weight: 900;
+    font-size: 1.75em;
+   }
+
+   h2{
+    color: #d300b7;
+    font-size: 4em;
+    font-weight: 700;
+   }
+
+/* ==========================================================================
+   Éléments
+   ========================================================================== */
+
+   /* Header */
+
+   .header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+   }
+
+   .header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+   }
+
+   .header li a{
+    font-size: 1.125em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+   }
+
+   header li a:hover{
+    color: #d300b7;
+   }
+
+   /* Hero */
+
+   .hero p{
+    font-size: 1.5em;
+    color: #fff;
+   }
+
+   .hero a{
+    color: #d300b7;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-decoration: none;
+   }
+
+   .content{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+   }
+
+   /* Cartes */
+
+   .cartes{
+    display: flex;
+   }
