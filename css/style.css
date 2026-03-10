@@ -48,6 +48,11 @@ html {
     font-weight: 700;
    }
 
+   h3{
+    font-size: 3em;
+    font-weight: 700;
+   }
+
 /* ==========================================================================
    Éléments
    ========================================================================== */
@@ -98,8 +103,20 @@ html {
     padding: 40px;
    }
 
+   /* Circuits */
+
+   .circuits{
+    background-color: #222;
+    color: #fff;
+   }
+
    /* Cartes */
+
+   .intro{
+    display: flex;
+   }
 
    .cartes{
     display: flex;
+    background-color: #fff;
    }
