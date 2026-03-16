@@ -172,6 +172,11 @@ html {
       justify-content: center;
    }
 
+   .footer li:hover{
+      color: #fff;
+      background-color: #000;
+   }
+
    .material-symbols-outlined{
       font-size: 40px;
    }
