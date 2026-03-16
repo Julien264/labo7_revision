@@ -121,3 +121,9 @@ html {
     display: flex;
     background-color: #fff;
    }
+
+   /* Footer */
+
+   .grosVelo{
+      font-weight: 700;
+   }
