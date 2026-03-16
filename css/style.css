@@ -40,17 +40,27 @@ html {
    h1{
     font-weight: 900;
     font-size: 1.75em;
+    text-transform: uppercase;
    }
 
    h2{
     color: #d300b7;
     font-size: 4em;
     font-weight: 700;
+    text-transform: uppercase;
    }
 
    h3{
     font-size: 3em;
     font-weight: 700;
+    text-transform: uppercase;
+   }
+
+   h4{
+      font-size: 2em;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #d300b7;
    }
 
 /* ==========================================================================
@@ -115,14 +125,34 @@ html {
 
    .intro{
     display: flex;
+    justify-content: space-between;
    }
 
    .cartes{
     display: flex;
     background-color: #fff;
+    color: #000;
+   }
+
+   article{
+      align-items: center;
+      justify-content: center;
    }
 
    /* Footer */
+
+   .footer{
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+   }
+
+   .footer ul{
+      display: flex;
+      list-style: none;
+      gap: 20px;
+   }
 
    .grosVelo{
       font-weight: 700;
