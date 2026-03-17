@@ -128,10 +128,13 @@ html {
     justify-content: space-between;
    }
 
-   .cartes{
-    display: flex;
-    background-color: #fff;
-    color: #000;
+   div .cartes{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 30px;
+      gap: 30px;
+      background-color: #fff;
+      color: #000;
    }
 
    article{
@@ -161,24 +164,23 @@ html {
       gap: 20px;
    }
 
-   .footer li{
+   .material-symbols-outlined{
+      font-size: 1.875em;
       color: #fff;
       background: #d300b7;
       border-radius: 100%;
       height: 90px;
       width: 90px;
       display: flex;
-      align-items: center;
+      align-content: center;
+      text-align: center;
       justify-content: center;
+      text-align: center;
    }
 
-   .footer li:hover{
-      color: #fff;
-      background-color: #000;
-   }
-
-   .material-symbols-outlined{
-      font-size: 40px;
+   .material-symbols-outlined:hover{
+    color: #fff;
+   background-color: #000;
    }
 
    .grosVelo{
