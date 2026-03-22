@@ -63,6 +63,7 @@ html {
       text-transform: uppercase;
       color: #d300b7;
       padding: 0;
+      text-align: center;
    }
 
 /* ==========================================================================
@@ -219,6 +220,10 @@ html {
       color: #fff;
    }
 
+   article p{
+      text-align: center;
+   }
+
    /* Footer */
 
    .footer{
@@ -265,4 +270,8 @@ html {
 
    .grosVelo{
       font-weight: 700;
+   }
+
+   .modal{
+      
    }
