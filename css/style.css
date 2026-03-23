@@ -114,6 +114,10 @@ html {
     color: #000;
    }
 
+   .header li a:hover{
+      color: #d300b7;
+   }
+
    /* Hero */
 
    .hero{
@@ -179,6 +183,13 @@ html {
     max-width: 2/3;
     justify-content: center;
     gap: 20px;
+   }
+
+   .intro p{
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
    }
 
    .cartes{
@@ -272,6 +283,37 @@ html {
       font-weight: 700;
    }
 
+   .image{
+      width: 600px;
+      height: 400px;
+      background-color: #fff;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      border-radius: 20px;
+      margin: auto;
+   }
+
+   .image p{
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      margin-left: 275px;
+   }
+
    .modal{
-      
+      position: fixed;
+      top: 0;
+      left: 0;
+      width : 100%;
+      height : 100vh;
+      z-index: 998;
+      background-color: rgba(0, 0, 0, 0.8);
+      align-content: center;
+      justify-content: center;
+      display: none;
+   }
+
+   .modal.visible{
+      display: flex;
    }
